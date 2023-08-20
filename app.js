@@ -1,5 +1,7 @@
 window.addEventListener('load',function() {
 
+
+  //nike ad
 let nikeBkgTwo = document.querySelector('.nike__back-two');
 let nikeImg = document.querySelector('.shoes_img');
 
