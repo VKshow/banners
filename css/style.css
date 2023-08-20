@@ -1,0 +1,324 @@
+body{
+    background: rgb(47, 47, 47);
+}
+*{
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+.header{
+margin-top: 40px;
+}
+.title{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    text-transform: uppercase;
+}
+
+
+/* banner iphone */
+
+.iphone{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.iphone__back{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background: rgb(36,4,57);
+    background: linear-gradient(90deg, rgba(36,4,57,1) 0%, rgba(0,0,0,1) 51%);
+    width: 80%;
+    height: 0px;
+    opacity: 0;
+    animation: widthUp 1.5s ease-in-out .5s forwards;
+}
+
+@keyframes widthUp {
+    0% {
+      width: 0%;
+      opacity: 0;
+      height: 0px;
+      transform: translateY(0);
+    }
+    
+    100% {
+      width: 80%;
+      opacity: 100;
+      height: 300px;
+      transform: translateY(-50);
+    }
+}
+
+
+.iphone__info {
+    display: flex;
+    flex-direction: column;
+    width: 57%;
+    height: 100%;
+    padding: 10px;
+    
+}
+
+.iphone-logo{
+    
+    top: 16px;
+    left: 16px;
+    width: 0px;
+
+    animation: logoUp 1.5s ease-in-out .5s forwards;
+}
+@keyframes logoUp {
+    0% {
+      width: 0%;
+      opacity: 0;
+    }
+    30% {
+        width: 0%;
+        opacity: 0;
+      }
+    100% {
+      
+      width: 42px;
+      opacity: 100;
+    }
+}
+.iphone-logo img{
+    width: 100%;
+}
+
+.iphone__title{
+    text-align: center;
+    color: white;
+    font-size: 0px;
+
+    animation: titleUp 1.5s ease-in-out .5s forwards;
+}
+
+@keyframes titleUp {
+    0% {
+      font-size: 0px;
+      opacity: 0;
+      transform: scale(0);
+      
+    }
+    45% {
+        font-size: 0px;
+        opacity: 0;
+        transform: scale(0);
+        
+      }
+    
+    100% {
+        font-size: 29px;
+        font-weight: 400;
+        opacity: 100;
+        transform: scale(1);
+      
+    }
+}
+.iphone__subtitle {
+    margin-top: 7px;
+    text-align: center;
+    font-size: 63px;
+    font-weight: 500;
+    color: rgb(194, 129, 255);
+    font-weight: 400;
+
+    animation: subtitleUp 1.5s ease-in-out .5s forwards;
+}
+@keyframes subtitleUp {
+    0% {
+      font-size: 0px;
+      opacity: 0;
+      transform: scale(0);
+      
+    }
+    45% {
+        font-size: 0px;
+        opacity: 0;
+        transform: scale(0);
+        
+      }
+    
+    100% {
+        font-size: 63px;
+        font-weight: 500;
+        opacity: 100;
+        transform: scale(1);
+      
+    }
+}
+.iphone__comment {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+
+    animation: commentUp 1.5s ease-in-out .5s forwards;
+}
+
+@keyframes commentUp {
+    0% {
+      font-size: 0px;
+      opacity: 0;
+      transform: scale(0);
+      
+    }
+    45% {
+        font-size: 0px;
+        opacity: 0;
+        transform: scale(0);
+        
+      }
+    
+    100% {
+        font-size: 16px;
+        font-weight: 200;
+        opacity: 100;
+        transform: scale(1);
+      
+    }
+}
+
+
+.iphone__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 17px;
+    width: 215px;
+    height: 62px;
+    /* text-transform: uppercase; */
+    font-size: 17px;
+    font-weight: 100;
+    color: white;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.282), transparent);
+    border: 1px solid white;
+    border-radius: 10px;
+    animation: shimmer 1.5s ease-in-out 0.5s infinite, btnUp 1.5s ease-in-out 0.5s forwards;
+    background-size: 200% 200%;
+
+    
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200px 0;
+    }
+    100% {
+        background-position: 200px 0;
+    }
+}
+@keyframes btnUp {
+    0% {
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+    }
+    45% {
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+    }
+    100% {
+        opacity: 100;
+        width: 115px;
+        height: 42px;
+        font-size: 17px;
+    }
+}
+
+
+
+
+
+.iphone__gif{
+    width: 43%;
+}
+.iphone__gif img{
+    width: 100%;
+}
+
+/* banner nike */
+
+.nike {
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nike__back {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background: white;
+    width: 80%;
+    height: 300px;
+}
+.nike__back-two{
+    position:absolute;
+    left: -111px;
+    top: -152;
+    width: 711px;
+    height: 601px;
+    background: orange;
+    transform: rotate(121deg);
+}
+
+.nike__content {
+    width: 50%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nike__title {
+    margin-top: 16px;
+    font-size: 91px;
+    color: rgba(0, 0, 0, 0.805);
+    font-family: 'Anton', sans-serif;
+}
+.nike__subtitle {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.805);
+    font-family: 'Anton', sans-serif;
+}
+.nike__logo {
+    width: 30%;
+}
+.nike__logo img{
+    width: 100%;
+}
+.nike__pic {
+    width: 38%;
+    margin: 0 auto;
+}
+.nike__pic img{
+    margin: 0 auto;
+    width: 100%;
+}
