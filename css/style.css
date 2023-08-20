@@ -75,8 +75,8 @@ margin-top: 40px;
 
 .iphone-logo{
     
-    top: 16px;
-    left: 16px;
+    /* top: 16px; */
+    /* left: 16px; */
     width: 0px;
 
     animation: logoUp 1.5s ease-in-out .5s forwards;

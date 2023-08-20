@@ -1,0 +1,279 @@
+@media(max-width: 1400px){
+.bmw__title{
+    font-size: 32px;
+}
+}
+@media(max-width: 1300px){
+    .bmw__title{
+        font-size: 29px;
+    }
+    }
+    @media(max-width: 1246px){
+        .airbnb__title{
+            font-size: 70px;
+        }
+        .airbnb__logo {
+            margin-top: 0px;
+        }
+        }
+        @media(max-width: 1200px){
+
+            @keyframes widthUp {
+                0% {
+                  width: 0%;
+                  opacity: 0;
+                  height: 0px;
+                  transform: translateY(0);
+                }
+                
+                100% {
+                  width: 90%;
+                  opacity: 100;
+                  height: 300px;
+                  transform: translateY(-50);
+                }
+            }
+            .nike__back{
+                width: 90%;
+            }
+            .airbnb__back{
+                width: 90%;
+            }
+            .bmw__back{
+                width: 90%;
+            }
+            }
+
+        @media (max-width: 1056px){
+            @keyframes widthUp {
+                0% {
+                  width: 0%;
+                  opacity: 0;
+                  height: 0px;
+                  transform: translateY(0);
+                }
+                
+                100% {
+                  width: 98%;
+                  opacity: 100;
+                  height: 300px;
+                  transform: translateY(-50);
+                }
+            }
+            .nike__back{
+                width: 98%;
+            }
+            .airbnb__back{
+                width: 98%;
+            }
+            .bmw__back{
+                width: 98%;
+            }
+        }
+        @media (max-width: 974px){
+            .nike__back-two{
+                left: -184px;
+            }
+            .bmw__subtitle {
+                font-size: 11px;
+            }
+        }
+        @media (max-width: 921px){
+            .nike__title{
+                font-size: 66px;
+            }
+            .airbnb__title-container {
+                margin-top: -58px;
+            }
+            .airbnb__logo {
+                margin-top: -45px;
+            }
+            .bmw__title {
+                font-size: 23px;
+            }
+        }
+        @media (max-width: 853px){
+            .nike__back-two{
+                left: -283px;
+            }
+        }
+        @media(max-width: 770px){
+            .airbnb__title {
+                font-size: 49px;
+            }
+            .airbnb__logo {
+                margin-top: -85px;
+            }
+            .bmw__title {
+                font-size: 21px;
+            }
+            .bmw__subtitle {
+                font-size: 9px;
+            }
+        }
+        @media(max-width: 695px){
+            .airbnb__content{
+                height: auto;
+            }
+            .airbnb__title-container {
+                margin-top: 22px;
+            }
+            .airbnb__logo {
+                margin-top: 15px;
+            }
+            .nike__back-two{
+                left: -348px;
+            }
+            @keyframes titleUp {
+                0% {
+                  font-size: 0px;
+                  opacity: 0;
+                  transform: scale(0);
+                  
+                }
+                45% {
+                    font-size: 0px;
+                    opacity: 0;
+                    transform: scale(0);
+                    
+                  }
+                
+                100% {
+                    font-size: 19px;
+                    font-weight: 400;
+                    opacity: 100;
+                    transform: scale(1);
+                  
+                }
+            }
+            @keyframes subtitleUp {
+                0% {
+                  font-size: 0px;
+                  opacity: 0;
+                  transform: scale(0);
+                  
+                }
+                45% {
+                    font-size: 0px;
+                    opacity: 0;
+                    transform: scale(0);
+                    
+                  }
+                
+                100% {
+                    font-size: 53px;
+                    font-weight: 500;
+                    opacity: 100;
+                    transform: scale(1);
+                  
+                }
+        }
+    }
+    @media(max-width: 666px){
+        .iphone__back{
+            flex-direction: column;
+        }
+        @keyframes widthUp {
+            0% {
+              width: 0%;
+              opacity: 0;
+              height: 0px;
+              transform: translateY(0);
+            }
+            
+            100% {
+              width: 80%;
+              opacity: 100;
+              height: 443px;
+              transform: translateY(-50);
+            }
+        }
+        @keyframes logoUp {
+            0% {
+              width: 0%;
+              opacity: 0;
+            }
+            30% {
+                width: 0%;
+                opacity: 0;
+              }
+            100% {
+              
+              width: 23px;
+              opacity: 100;
+            }
+        }
+        .iphone-logo{
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        .iphone{
+            margin-top: 87px;
+            margin-bottom: 100px;
+        }
+        .nike__title {
+            font-size: 53px;
+        }
+        .nike__back{
+            flex-direction: column-reverse;
+            height: auto;
+        }
+        .nike{
+            height: 524px;
+        }
+        .nike__back-two{
+            top: 142px;
+            height: 1099px;
+            width: 930px;
+            transform: rotate(90deg);
+        }
+        .bmw__content{
+            width: 78%;
+        }
+        .header {
+            margin-top: 10px;
+        }
+
+        .nike{
+            margin-top: 2px;
+        }
+        .airbnb{
+            margin-top: 2px;
+        }
+        .bmw__comment{
+            font-size: 8px;
+        }
+
+    }
+    @media(max-width: 536px){
+        .nike__title {
+            margin-top: 36px;
+            font-size: 45px;
+        }
+        .airbnb__title-container {
+            margin-top: 0px;
+        }
+        .airbnb__title {
+            font-size: 35px;
+        }
+        .airbnb__logo img {
+            width: 45%;
+            object-fit: contain;
+        }
+        .airbnb__logo {
+            width: 35%;
+        }
+        .bmw__content{
+            flex-direction: column;
+            align-items: start;
+            
+            
+        }
+        .bmw__text{
+            margin-top: 10px;
+            width: 90%;
+        }
+        .bmw{
+            
+        }
+    }
