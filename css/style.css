@@ -373,12 +373,14 @@ margin-top: 40px;
     font-family: 'Manrope', sans-serif;
     font-size: 103px;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
     color: white;
+    margin-left: 113px;
 }
 .airbnb__logo {
     z-index: 2;
     width: 29%;
+    margin-top: 19px;
 }
 .airbnb__logo img{
     width: 58%;
@@ -387,3 +389,83 @@ margin-top: 40px;
 
 /* bmw */
 
+.bmw{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.bmw__back{
+    width: 80%;
+    height: 300px;
+    background-image: url('../img/bmw/bkg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 15px;
+
+}
+
+.bmw__content {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.bmw__wrap{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+}
+.bmw__logo {
+    width: 100%;
+    padding: 10px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bmw__logo img{
+    width: 100%;
+}
+.bmw__comment {
+    margin-top: 8px;
+    padding: 5px;
+    font-family: 'Rubik', sans-serif;
+    background: white;
+    font-size: 10px;
+    text-align: center;
+}
+.bmw__text{
+    width: 79%;
+    display: flex;
+    flex-direction: column;
+}
+.bmw__title{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.bmw__subtitle{
+    margin-top: 12px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.bmw__btn{
+    margin-top: 11px;
+    width: 140px;
+    cursor: pointer;
+    padding: 10px 25px;
+    background: rgb(62, 145, 227);
+    color: white;
+    border: none;
+}
