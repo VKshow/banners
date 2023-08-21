@@ -263,17 +263,103 @@
         .airbnb__logo {
             width: 35%;
         }
+        
+        .bmw__text{
+            margin-top: 10px;
+            width: 80%;
+        }
+        .bmw{
+            margin-top: 29px;
+        }
+        .bmw__back{
+            padding: 4px;
+        }
+        .bmw__wrap{
+            width: 15%;
+        }
+        .bmw__comment {
+            font-size: 6px;
+        }
+    }
+    @media(max-width: 520px){
+        .bmw__title {
+            font-size: 19px;
+        }
         .bmw__content{
             flex-direction: column;
             align-items: start;
-            
-            
         }
-        .bmw__text{
+        .bmw__text {
             margin-top: 10px;
-            width: 90%;
+            width: 50%;
+        }
+        .bmw__title {
+            font-size: 17px;
+        }
+        .bmw__subtitle {
+            font-size: 12px;
+        }
+        .iphone__gif {
+            width: 100%;
+        }
+        .iphone__back{
+            background: linear-gradient(184deg, rgba(36,4,57,1) 0%, rgba(0,0,0,1) 51%);
+        }
+        .iphone{
+            height: auto;
+            margin-bottom: 130px;
+            margin-top: 23px;
+        }
+        .nike {
+            margin-top: 2px;
+            height: auto;
+        }
+        .airbnb{
+            height: auto;
         }
         .bmw{
-            
+            height: auto;
+        }
+        .header {
+            margin-top: 52px;
+        }
+    }
+    @media(max-width: 479px){
+        .nike__content{
+            width: 100%;
+        }
+        .nike__back-two{
+            top: 97px;
+        }
+        .airbnb__title{
+            margin-left: 32px;
+        }
+        .airbnb__logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .bmw__title{
+            background: rgba(0, 0, 0, 0.252);
+        }
+        .bmw__subtitle{
+            background: rgba(0, 0, 0, 0.252);
+        }
+        .iphone__info{
+            width: 100%;
+        }
+        .iphone__gif {
+            width: 100%;
+        }
+        .bmw {
+            margin-top: 6px;
+        }
+    }
+    @media(max-width: 383px){
+        .bmw__title {
+            font-size: 14px;
+        }
+        .bmw__subtitle {
+            font-size: 9px;
         }
     }
